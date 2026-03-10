@@ -4,4 +4,11 @@ using namespace std;
 float inputBerat(){
     float berat;
     cout << "Masukkan berat badan :  ";
+    cin >> berat;
+    return berat;
+}
+
+float inputTinggi(){
+    float tinggi;
+    cout << "Masukkan tinggi badan : ";
 }

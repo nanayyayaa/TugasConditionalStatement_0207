@@ -25,4 +25,11 @@ string statusBMI(float BMI){
     else if (BMI < 25)
         return "berat badan normal";
     else if (BMI < 30)
+        return "berat badan berlebih";
+    else
+        return "obesitas";
+}
+
+int main (){
+    float berat, tinggi, BMI;
 }

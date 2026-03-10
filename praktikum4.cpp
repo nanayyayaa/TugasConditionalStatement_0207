@@ -11,4 +11,10 @@ float inputBerat(){
 float inputTinggi(){
     float tinggi;
     cout << "Masukkan tinggi badan : ";
+    cin >> tinggi;
+    return tinggi;
+}
+
+float hitungBMI(float berat, float tinggi){
+    return berat / (tinggi * tinggi);
 }
